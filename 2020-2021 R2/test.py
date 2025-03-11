@@ -71,15 +71,3 @@ for i in range(n):
     grid[coords[symbol][0]][coords[symbol][1]] = symbol
 
 print(grid)"""
-
-
-w = list(input())
-n = int(input())
-res = ""
-
-while w:
-  for _ in range(n):
-    w.append(w.pop(0))
-  res += w.pop(0)
-
-print(res)
