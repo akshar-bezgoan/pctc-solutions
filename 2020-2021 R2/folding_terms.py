@@ -5,6 +5,8 @@ seen = {num}
 terms = [num]
 
 def next_term(num):
+  global total, seen, terms
+  
   num *= num
   while num >= 1000000:
     num = str(num)
