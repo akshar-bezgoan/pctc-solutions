@@ -22,4 +22,4 @@ graph = {
     'D': [('B', 5), ('C', 1)]
 }
 
-print(dijkstra(graph, 'A'))
+print(dijkstra(graph, 'A')['D'])
